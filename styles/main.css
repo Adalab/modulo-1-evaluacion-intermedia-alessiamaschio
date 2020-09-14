@@ -4,28 +4,45 @@
   font-family: "Rubik", sans-serif;
 }
 
+.container {
+  display: flex;
+  background-color: #ffffff;
+  justify-content: space-between;
+}
+
 .header {
   width: 100%;
   position: fixed;
   top: 0;
-  background-color: yellow;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: #4a4a4a;
+  z-index: 1;
 }
 
 .main {
   background-color: #3cdbc0;
-  position: absolute;
+  position: relative;
   top: 123px;
   width: 100%;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  align-content: center;
   color: #ffffff;
   font-size: 30px;
   text-align: center;
+}
+
+.title-1 {
+  margin-top: 500px;
+}
+
+.title-2 {
+  margin-bottom: 500px;
 }
 
 .logo {
