@@ -44,16 +44,7 @@
   text-transform: capitalize;
 }
 
-/* .title-1 {
-  margin-top: 500px;
-}
-
-.title-2 {
-  margin-bottom: 500px;
-} */
-
 .logo {
-  /* margin-top: 10px; */
   margin-bottom: 10px;
 }
 
@@ -86,7 +77,6 @@
 @media all and (min-width: 768px) {
   .header {
     flex-direction: row;
-    /* align-items: center; */
   }
 
   .list {
